@@ -1,3 +1,24 @@
+# How to run the app
+Create a file name firebase.js in the src folder and add the following code:<br/>
+```javascript
+import firebase from "firebase/app"; 
+import "firebase/auth";
+import "firebase/database";
+import "firebase/storage";
+
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  //your firebase config file
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+export default firebase;
+```
+Now run the following command:
+`yarn start` to start the project
+ 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
