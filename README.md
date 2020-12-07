@@ -16,6 +16,7 @@ firebase.initializeApp(firebaseConfig);
 export default firebase;
 ```
 Now run the following command:
+`yarn i` to install all dependencies <br/>
 `yarn start` to start the project
  
 
